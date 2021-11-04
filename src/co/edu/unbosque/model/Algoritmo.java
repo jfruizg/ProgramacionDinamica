@@ -3,6 +3,7 @@ package co.edu.unbosque.model;
 public class Algoritmo {
 
 
+    // Algoritmo floid
     public void floyd(long[][] adyacencia) {
         int n = adyacencia.length;
         long D[][] = adyacencia;
